@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+
+# Artefatos gerados pelo Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Temporários do sistema
+*.log
+.DS_Store
+Thumbs.db

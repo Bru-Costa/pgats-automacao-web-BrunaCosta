@@ -1,0 +1,26 @@
+{
+  "name": "pgats-automacao-web-brunacosta",
+  "version": "1.0.0",
+  "description": "Automação web com Cypress sobre o Automation Exercise - trabalho de conclusão PGATS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "automation-exercise",
+    "pgats"
+  ],
+  "author": "Bruna Costa",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
